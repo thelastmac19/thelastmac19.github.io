@@ -877,8 +877,8 @@ const LEGENDARY_IDS_GEN2 = [243, 244, 245, 249, 250];
 // ============================================================
 const GEN2_CATCH_POOLS = [
   // Map 1 (lv 5–14) — Johto-Frühlinge + bekannte Gen-1-Starter-Alternativen
-  [161,163,165,167,172,175,179,187,191,194,
-   10,13,16,19,21,27,29,32,35,39,41,43,46,48,54,56,60,63,66,69,74],
+  [161,163,165,167,172,175,179,187,191,194,238,239,246,
+   10,13,16,19,21,27,29,32,35,39,41,43,46,48,54,56,60,63,66,69,74,81,132,140],
   // Map 2 (lv 12–22)
   [162,164,166,168,170,176,177,183,188,190,195,198,200,
    22,23,24,42,44,50,52,55,57,61,64,67,70,72,81,84,86,90,92,95,96,98,100,102],
@@ -912,7 +912,7 @@ const GYM_LEADERS_GEN2 = [
     name: 'Falkner', badge: 'gen2_1', type: 'Flying', moveTier: 0,
     team: [
       { speciesId:163, name:'Hoothoot', types:['Normal','Flying'], baseStats:{hp:60,atk:30,def:30,speed:50,special:36,spdef:56}, level:10,  heldItem:null },
-      { speciesId:22,  name:'Fearow',   types:['Normal','Flying'], baseStats:{hp:65,atk:90,def:65,speed:100,special:61,spdef:61}, level:14, heldItem:{id:'sharp_beak',name:'Sharp Beak',icon:'🦅'} },
+      { speciesId:22,  name:'Fearow',   types:['Normal','Flying'], baseStats:{hp:65,atk:90,def:65,speed:100,special:61,spdef:61}, level:14, heldItem:null} },
     ]
   },
   // Map 2: Bugsy — Käfer (lv 15–18)
