@@ -912,7 +912,7 @@ const GYM_LEADERS_GEN2 = [
     name: 'Falkner', badge: 'gen2_1', type: 'Flying', moveTier: 0,
     team: [
       { speciesId:163, name:'Hoothoot', types:['Normal','Flying'], baseStats:{hp:60,atk:30,def:30,speed:50,special:36,spdef:56}, level:10,  heldItem:null },
-      { speciesId:22,  name:'Fearow',   types:['Normal','Flying'], baseStats:{hp:65,atk:90,def:65,speed:100,special:61,spdef:61}, level:14, heldItem:null },
+      { speciesId:22,  name:'Fearow',   types:['Normal','Flying'], baseStats:{hp:65,atk:90,def:65,speed:100,special:61,spdef:61}, level:14, heldItem:{id:'silver_powder',name:'Silver Powder',icon:'🐛'} },
     ]
   },
   // Map 2: Bugsy — Käfer (lv 15–18)
